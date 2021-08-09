@@ -29,13 +29,10 @@ namespace HashTableProblem
             hash.Add("16", "paranoid");
             hash.Add("17", "avoidable");
             hash.Add("18", "situations");
-            string hash0 = hash.Get("0");
-            Console.WriteLine("Oth index value:" + hash0);
-            string hash3 = hash.Get("3");
-            Console.WriteLine("3rd index value:" + hash3);
-            hash.Remove(hash3);
-            string hash10 = hash.Get("10");
-            Console.WriteLine("10th index value:" + hash10);
+            //// remove word from hashtable.
+            string hash17 = hash.Get("17");
+            Console.WriteLine("17th index value:" + hash17);
+            hash.Remove(hash17);
         }
         /// <summary>
         /// main method
